@@ -139,11 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Creator.cpp" />
+    <ClCompile Include="CreatorBase.cpp" />
+    <ClCompile Include="LineCreator.cpp" />
+    <ClCompile Include="LineManIpulator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ManIpulatorBase.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Creator.h" />
+    <ClInclude Include="CreatorBase.h" />
+    <ClInclude Include="LineCreator.h" />
+    <ClInclude Include="LineManIpulator.h" />
+    <ClInclude Include="ManIpulatorBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

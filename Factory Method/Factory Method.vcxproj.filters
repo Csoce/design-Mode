@@ -18,12 +18,30 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Creator.cpp">
+    <ClCompile Include="CreatorBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCreator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManIpulatorBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineManIpulator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Creator.h">
+    <ClInclude Include="CreatorBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCreator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ManIpulatorBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineManIpulator.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
