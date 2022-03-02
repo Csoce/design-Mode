@@ -1,7 +1,7 @@
 #ifndef __LINECREATEBASE_H__
 #define __LINECREATEBASE_H__
 
-class ManIpulatorBase
+class ManIpulator
 {
 
 public:

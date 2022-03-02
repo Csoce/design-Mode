@@ -1,16 +1,16 @@
 #ifndef __LINEBREATOR_H__
 #define __LINEBREATOR_H__
-#include "CreatorBase.h"
-#include "ManIpulatorBase.h"
+#include "Creator.h"
+#include "ManIpulator.h"
 class LineCreator :
-    public CreatorBase
+    public Creator
 {
 public:
     LineCreator();
     virtual ~LineCreator();
 
 public:
-    virtual ManIpulatorBase* CreateTextInput();
+    virtual ManIpulator* CreateTextInput();
 
 };
 

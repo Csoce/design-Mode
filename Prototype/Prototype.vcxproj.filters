@@ -15,34 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Creator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LineCreator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ManIpulator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LineManIpulator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Creator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LineCreator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ManIpulator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LineManIpulator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 #ifndef __LINE_MANIPULATOR_H__
 #define __LINE_MANIPULATOR_H__
 
-#include "ManIpulatorBase.h"
-class LineManIpulator :public ManIpulatorBase
+#include "ManIpulator.h"
+class LineManIpulator :public ManIpulator
 {
 public:
     LineManIpulator();

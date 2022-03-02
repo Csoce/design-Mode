@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a734f30f-b1f3-4608-8ca2-f7a457519329}</ProjectGuid>
-    <RootNamespace>FactoryMethod</RootNamespace>
+    <ProjectGuid>{ef78b67d-2468-4f13-846c-ad53060d9b64}</ProjectGuid>
+    <RootNamespace>Prototype</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,17 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Creator.cpp" />
-    <ClCompile Include="LineCreator.cpp" />
-    <ClCompile Include="LineManIpulator.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="ManIpulator.cpp" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Creator.h" />
-    <ClInclude Include="LineCreator.h" />
-    <ClInclude Include="LineManIpulator.h" />
-    <ClInclude Include="ManIpulator.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -10,7 +10,7 @@ LineCreator::~LineCreator()
 
 }
 
-ManIpulatorBase* LineCreator::CreateTextInput()
+ManIpulator* LineCreator::CreateTextInput()
 {
 	return new LineManIpulator;
 }
