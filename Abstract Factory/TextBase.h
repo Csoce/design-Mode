@@ -6,12 +6,8 @@
 class TextBase
 {
 public:
-	TextBase() { m_strName = "base"; };
+	virtual void Text1() = 0;
+	virtual void Text2() = 0;
 
-public:
-	virtual std::string GetTextName();
-
-private:
-	std::string m_strName;
 };
 #endif // !__TEXTBADE_H__

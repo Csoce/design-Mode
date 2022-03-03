@@ -1,5 +1,12 @@
 #include "CssText.h"
-std::string CssText::GetTextName()
+#include <iostream>
+
+void CssText::Text1()
 {
-	return m_strName;
+	std::cout << "Css me is text 1" << std::endl;
+}
+
+void CssText::Text2()
+{
+	std::cout << "Css me is text 2" << std::endl;
 }

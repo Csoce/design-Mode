@@ -1,5 +1,15 @@
-﻿// Factory Method.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+﻿/*
+* 工厂方法
+* 
+* 工厂方法用于创建一个对象
+* 
+* 生成基类：Creator
+* 生成子类：LineCreator
+* 
+* 产品对象基类：Manlpulator
+* 产品对象子类；LineManlpulator
+* 
+*/
 #include "Creator.h"
 #include "LineManIpulator.h"
 #include "LineCreator.h"
@@ -7,7 +17,7 @@
 
 int main()
 {
-    LineCreator* p = new LineCreator();
+    Creator* p = new LineCreator();
     ManIpulator* pIpt = p->CreateTextInput();
     pIpt->Input();
 

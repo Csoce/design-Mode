@@ -21,5 +21,10 @@ void Client::Close()
 
 void Client::show()
 {
-	m_prType->Input();
+	Prototype* p = m_prType->Clone();
+	if (p != nullptr)
+	{
+		p->Input();
+		delete p;
+	}
 }

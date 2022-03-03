@@ -6,13 +6,8 @@ class CssText :
     public TextBase
 {
 public:
-	CssText() { m_strName = "css_name"; };
-
-public:
-	virtual std::string GetTextName();
-
-private:
-	std::string m_strName;
+    virtual void Text1();
+    virtual void Text2();
 };
 
 #endif // !__TEXTBASE_H__

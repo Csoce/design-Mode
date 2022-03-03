@@ -18,42 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LineTextFactory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="RowTextFactory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="TextFactory.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CssText.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="StyleText.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBase.cpp">
+    <ClCompile Include="Singleton.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CssText.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="StyleText.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="TextBase.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LineTextFactory.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="RowTextFactory.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="TextFactory.h">
+    <ClInclude Include="Singleton.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

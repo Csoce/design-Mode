@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c86e864e-c0b6-4e89-b037-0f4f977d6716}</ProjectGuid>
-    <RootNamespace>AbstractFactory</RootNamespace>
+    <ProjectGuid>{86f2d949-0d12-4998-9f69-661f2ceef4ce}</ProjectGuid>
+    <RootNamespace>Singleton</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,20 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="CssText.cpp" />
-    <ClCompile Include="LineTextFactory.cpp" />
-    <ClCompile Include="RowTextFactory.cpp" />
-    <ClCompile Include="StyleText.cpp" />
-    <ClCompile Include="TextBase.cpp" />
-    <ClCompile Include="TextFactory.cpp" />
+    <ClCompile Include="Singleton.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CssText.h" />
-    <ClInclude Include="LineTextFactory.h" />
-    <ClInclude Include="RowTextFactory.h" />
-    <ClInclude Include="StyleText.h" />
-    <ClInclude Include="TextBase.h" />
-    <ClInclude Include="TextFactory.h" />
+    <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

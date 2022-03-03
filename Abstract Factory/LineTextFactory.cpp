@@ -1,6 +1,6 @@
 #include "LineTextFactory.h"
-#include "StyleTextBase.h"
+#include "StyleText.h"
 TextBase* LineTextFactory::CreateTextFactory()
 {
-	return new StyleTextBase;
+	return new StyleText;
 }
