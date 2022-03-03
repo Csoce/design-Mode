@@ -139,10 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ConcretePrototype1.h" />
+    <ClInclude Include="ConcretePrototype2.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="Prototype.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ConcretePrototype1.cpp" />
+    <ClCompile Include="ConcretePrototype2.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Prototype.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

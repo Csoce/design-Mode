@@ -18,9 +18,33 @@
     <ClInclude Include="main.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretePrototype1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretePrototype2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretePrototype1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretePrototype2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
