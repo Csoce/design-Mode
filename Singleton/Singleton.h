@@ -3,10 +3,6 @@
 * 
 */
 
-
-/*
-* µ¥ÀýÄ£Ê½
-*/
 #ifndef __SINGLETON_H__
 #define __SINGLETON_H__
 class Singleton
